@@ -1,0 +1,34 @@
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+body {
+  background: black;
+  font-family: var(--font-mono);
+}
+
+h4,
+small {
+  color: whitesmoke;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 1;
+}
+
+/* The good stuff! */
+/* Inspo (modified from): https://x.com/prathkum/status/1709463418904723759?s=46&t=WaPoiEDba5BoYmhJ63VwVA */
+p {
+  /* photo credit: https://unsplash.com/photos/9wF7Bm8s5jQ */
+  /* photog: Jeff Lowery */
+  background: url("https://images.unsplash.com/photo-1619650277752-9b853abf815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  text-align: justify;
+}
